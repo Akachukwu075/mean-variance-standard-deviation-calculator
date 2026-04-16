@@ -1,11 +1,9 @@
-Mean-Variance-Standard Deviation Calculator
+# Mean-Variance-Standard Deviation Calculator
 
 This project is part of the freeCodeCamp Data Analysis with Python certification.
 
-📌 Description
-
-This Python project uses NumPy to calculate:
-
+## 📌 What it does
+This project uses Python and NumPy to calculate:
 - Mean
 - Variance
 - Standard Deviation
@@ -14,26 +12,20 @@ This Python project uses NumPy to calculate:
 - Sum
 
 Across:
-
 - Rows
 - Columns
 - Entire matrix
 
-⚙️ Technologies Used
-
+## 🛠️ Tools Used
 - Python
 - NumPy
 
-▶️ How to Use
+## 📁 Files
+- mean_var_std.py → main function
+- main.py → testing file
 
-Call the function:
+## ▶️ How to run
+```python
+from mean_var_std import calculate
 
-calculate([0,1,2,3,4,5,6,7,8])
-
-📁 File
-
-- mean_var_std.py
-
-🚀 Author
-
-Your Name
+print(calculate([0,1,2,3,4,5,6,7,8]))
